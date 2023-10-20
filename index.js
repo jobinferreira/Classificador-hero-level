@@ -1,7 +1,7 @@
 // Classificador nível de herói
 
 let nomeHeroi = "Miranha";
-let expHeroi = Math.random() * 10000;
+let expHeroi = Math.round(Math.random() * 11000);
 
 function heroLevel(expHeroi) {
     if (expHeroi < 1000) {
